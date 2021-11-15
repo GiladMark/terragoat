@@ -110,7 +110,6 @@ resource "aws_security_group" "web-node" {
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
-    yor_trace            = "b7af1b40-64eb-4519-a1a0-ab198db4b193"
   }
 }
 
@@ -128,7 +127,6 @@ resource "aws_vpc" "web_vpc" {
     git_modifiers        = "nimrodkor"
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
-    yor_trace            = "9bf2359b-952e-4570-9595-52eba4c20473"
   })
 }
 
