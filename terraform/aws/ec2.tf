@@ -48,6 +48,8 @@ resource "aws_ebs_volume" "web_host_storage" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     gilad                = "test2"
+    }, {
+    yor_trace = "110f3d33-2b51-465f-9e8f-7e202e53d857"
   })
 }
 
@@ -66,6 +68,8 @@ resource "aws_ebs_snapshot" "example_snapshot" {
     git_org              = "bridgecrewio"
     git_repo             = "terragoat"
     gilad                = "test3"
+    }, {
+    yor_trace = "4c7e9d69-4582-4b4d-a37e-fdce209b44d7"
   })
 }
 
