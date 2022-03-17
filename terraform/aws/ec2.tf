@@ -134,6 +134,12 @@ resource "aws_vpc" "web_vpc" {
   })
 }
 
+resource "aws_vpc" "web_vpc" {
+  cidr_block           = "172.16.0.0/16"
+  enable_dns_hostnames = true
+  enable_dns_support   = true
+}
+
 resource "aws_subnet" "web_subnet" {
   vpc_id                  = aws_vpc.web_vpc.id
   cidr_block              = "172.16.10.0/24"
