@@ -47,8 +47,6 @@ resource "aws_ebs_volume" "web_host_storage" {
     git_last_modified_at = "2021-05-02 11:16:31"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
     gilad                = "test2"
     }, {
     driftest  = "automated"
@@ -135,9 +133,6 @@ resource "aws_vpc" "web_vpc" {
     git_file             = "terraform/aws/ec2.tf"
     git_last_modified_at = "2020-06-16 14:46:24"
     git_last_modified_by = "nimrodkor@gmail.com"
-    git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
     }, {
     yor_trace = "51628f12-3430-4be6-885e-403fd4ebea5b"
     }, {
